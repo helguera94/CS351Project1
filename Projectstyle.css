@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Template*/
+body {
+	background-color: white;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.header{
+	background-color:#F5EBEB; 
+	padding: 20px;
+	text-align:center;
+	color:#2D2D2D;
+	
+
+}
+.header a{
+	color:#2D2D2D;
+	text-decoration: none;
+}
+
+.footer{
+	overflow:hidden;
+	
+	width:100%;
+	background-color:#D1C9C9;
+	padding:25px;
+	margin-top: 65px;
+	margin-bottom: 0px;
+	text-align: center;
+	
+}
+.footer p{
+	color:#313030;
+}
+.footer a{
+	text-decoration: none;
+}
+.reference{
+	text-decoration: none;
+	color:#313030;
+}
+
+/* style top navigation bar */
+.navbar-collapse{
+	overflow: hidden;
+	background-color: black;
+	
+}
+
+.navbar-collapse a{
+	
+	color: antiquewhite;
+	padding:10px;
+	
+}
+
+
+/*home page */
+div.slide{
+	width:60%;
+	
+	margin-left:20%;
+	margin-right:20%;
+}
+div.slides h4{
+	padding:25px;
+	text-align: center;
+}
+div.row1 h3{
+	text-align: center;
+	margin-left: 10%;
+	margin-right:10%;
+	width: 80%;
+}
+/*shop page*/
+
+div.shopgallery{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:10px;
+	margin-bottom: 15px;
+	border:1px solid #CCC;
+	float:left;
+	width:15%;
+}
+
+div.shopgallery img{
+	width:100%;
+
+	height:auto;
+}
+
+
+
+/*Product page*/
+.pagegallery img{
+	width:90%;
+	height: 10%;
+	margin-top: 50px;
+	margin-left: 70px;
+	margin-right: 90px;
+}
+div.Coffeename{
+	padding-top: 50px;
+	padding-left: 70px;
+	font-size: 30px;
+}
+div.price{
+	padding-top: 20px;
+	padding-left: 70px;
+	font-size: 20px;
+	color: #535353
+}
+div.Quantity{
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-bottom: 30px;
+	font-size: 15px;
+	color:#747171
+}
+a.btn{
+	margin-left: 50px;
+	background-color: black;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+/*p page*/
+.column{
+	float:left;
+	width:50%;
+	padding:20px;
+}
+.row{
+	margin-left: 50px;
+	
+	display:table;
+	clear:both;
+}
+
+div.panel-default{
+	margin-top: 50px;
+}
+
+/*Account page*/
+input{
+	padding:12px 20px;
+}
+
+input[type=submit]{
+	
+	width:50%;
+	padding:12px 20px;
+	margin:8px 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+form {
+	
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+.account {
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	
+}
+.account a{
+	color:#000000;
+	text-decoration: none;
+}
+
+
+
+
