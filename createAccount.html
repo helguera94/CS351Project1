@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><!-- InstanceBegin template="/Templates/Project1Template.dwt" codeOutsideHTMLIsLocked="false" -->
+	
+<head>
+<meta charset="UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!--used these links from W3schools to use glyphicon for navigation bar and footer  --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Project 1</title>
+<!-- InstanceEndEditable -->
+<!-- Bootstrap -->
+<link href="../css/Projectstyle.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+
+<body>
+	<!--   the navbar becmes a button when it's a small screen -->
+	<nav class ="navbar navbar-inverse">
+		<div class = "header">
+		 <h1>
+		  <a  href="Home.html"> <img src="../images/337181.png" alt="coffee logo" width= "50" height= "50"> CAFECITO COFFEE</a>
+		</h1>
+		</div>
+		<div class="container-fluid">
+			<div class= "navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target ="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+    </div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+				<li><a href="shop.html" >SHOP</a></li>
+				<li><a href="shop.html" >SUBSCRIBE</a></li>
+				<li><a href="shop.html" >VISIT US</a></li>
+		</ul>
+			<ul class ="nav navbar-nav navbar-right">
+				<li><a  href ="#"><span class= "glyphicon glyphicon-shopping-cart"></span></a></li>
+			  
+				<li><a  href ="account.html"><span class= "cart"></span> Account</a></li>
+				</ul>
+			 
+			
+		</div>
+	</div>
+</nav>
+
+	<!-- InstanceBeginEditable name="Project1Editable" -->
+	
+<form>
+	<h4>CREATE ACCOUNT</h4>
+	<input type="text" id="fname"  placeholder="First Name" size ="100" required minlength = "2"><br><br>
+	<input type="text" id="lname" placeholder="Last Name" size ="100" required minlength = "2"><br><br>
+	<input type="email" id="email" placeholder="Email" size ="100"><br><br>
+	<input type="password" id="password" placeholder="Password" size ="100" required minlength = "5"><br><br>
+	<label>OPTIONAL</label><br>
+	<label>Street:</label>
+	<input id="street"  size ="100"><br><br>
+	<label>City:</label>
+	<input id="city" size ="10">
+	<label>State:</label>
+	<input id="state" size ="10">
+	<label>zip:</label>
+	<input  id="zip"  size ="10">
+	<label>Phone:</label>
+	<input  id="phone"  size ="10"><br><br>
+	<input type="submit" value=" CREATE"  >
+</form>
+<script src="../javascript/validationCreate.js"></script>
+ 
+	<!-- InstanceEndEditable -->
+	<div class="footer">
+		<p><span class="glyphicon glyphicon-copyright-mark"></span> 2024 CAFECITO COFFEE |<a class="reference" href="reference.html"> REFERENCE |</a></p>
+		
+	
+	</div>
+</body>
+<!-- InstanceEnd --></html>
