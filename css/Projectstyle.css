@@ -128,7 +128,7 @@ a.btn{
 	padding-left: 40px;
 	padding-right: 40px;
 }
-/*p page*/
+
 .column{
 	float:left;
 	width:50%;
@@ -145,7 +145,7 @@ div.panel-default{
 	margin-top: 50px;
 }
 
-/*Account page*/
+/*Account page and create acount*/
 input{
 	padding:12px 20px;
 }
